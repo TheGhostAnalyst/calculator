@@ -10,7 +10,8 @@ A simple **Command-Line Calculator** built in Python that performs basic arithme
 - ✅ Subtraction  
 - ✅ Multiplication  
 - ✅ Division (with zero-division handling)  
-- ✅ Exponentiation  
+- ✅ Exponentiation
+- ✅ Logarithm 
 - ✅ Continuous operation loop until user exits
 
 ---
@@ -44,8 +45,9 @@ Select operation:
 3. Multiply
 4. Divide
 5. Exponential
-6. Exit
-Enter choice (1/2/3/4/5/6): 1
+6. Logarithm
+7. Exit
+Enter choice (1-7): 1
 Enter first number: 5
 Enter second number: 3
 Result: 8
