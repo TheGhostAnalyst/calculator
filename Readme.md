@@ -1,6 +1,6 @@
 # 🧮 Basic Calculator (Python CLI)
 
-A simple **Command-Line Calculator** built in Python that performs basic arithmetic operations using the `pyinputplus` module for input validation.
+A simple **Command-Line Calculator** built in Python that performs basic arithmetic operations using the `pyinputplus` module for input validation. And also saves result to a database for easy recovery of calculation history.
 
 ---
 
@@ -13,6 +13,7 @@ A simple **Command-Line Calculator** built in Python that performs basic arithme
 - ✅ Exponentiation
 - ✅ Logarithm 
 - ✅ Continuous operation loop until user exits
+- ✅ Saves result to a database for easy recovery of calculation history
 
 ---
 
@@ -46,8 +47,9 @@ Select operation:
 4. Divide
 5. Exponential
 6. Logarithm
-7. Exit
-Enter choice (1-7): 1
+7. View History
+8. Exit
+Enter choice (1-8): 1
 Enter first number: 5
 Enter second number: 3
 Result: 8
